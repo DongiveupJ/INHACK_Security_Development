@@ -112,7 +112,12 @@ git rm --cached .env  # 추적에서 제외 (파일은 로컬에 남음)
 git status            # → 이제 삭제로 잡히고, 이후로는 무시됨
 
 .gitignore에서 '.env.*'를 삭제한 후 커밋
+-> new file:   .env.local - env로컬이 추적됨.
 
+git rm --cached .env.local
+rm '.env.local'
+
+이후로 무시 확인
 ```
 
 > 정리: `.gitignore` 는 **아직 추적 안 하는 파일**만 막습니다.
