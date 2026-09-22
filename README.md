@@ -1,7 +1,7 @@
 > ⚠️ **이 코드는 교육용으로 일부러 취약하게 만든 코드입니다. 실제 서비스에 절대 쓰면 안 됩니다.**
 > 개발 파이프라인 보안(시크릿 관리, CI, 컨테이너 빌드, 의존성 공급망, 서명 키, 서비스 간 인증)을
 > 직접 고쳐 보며 배우기 위한 스터디용 템플릿입니다.
-
+https://thehackernews.com/2026/03/the-state-of-secrets-sprawl-2026-9.html#5-self-hosted-gitlab-and-docker-registries-expose-secrets-at-3-4x-the-rate-of-public-github
 ### inhack-pipeline-template
 
 작은 웹 애플리케이션을 예제로 삼아, 10주 동안 매주 보안 설정을 하나씩 붙여 나가는 템플릿입니다.
